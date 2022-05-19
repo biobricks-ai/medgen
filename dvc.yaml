@@ -1,0 +1,5 @@
+stages:
+  download:
+    cmd: wget -nd --no-parent -A '*.txt' -A '*.gz' -r "ftp://ftp.ncbi.nlm.nih.gov/pub/medgen/" -P download/
+    outs:
+      - download/

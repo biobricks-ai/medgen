@@ -8,3 +8,10 @@ stages:
       md5: cb2a296b5a13becf537d4bb74c8529a0.dir
       size: 510845348
       nfiles: 26
+  process:
+    cmd: Rscript R/process.R
+    outs:
+    - path: data/
+      md5: a7e94e659a52324498c2b783e25364cd.dir
+      size: 534661319
+      nfiles: 18

@@ -4,7 +4,7 @@ library(fs)
 library(vroom)
 
 download_dir <- "download"
-data_dir <- "data"
+data_dir <- "brick"
 fs::dir_create(data_dir)
 
 process_file <- function(filename) {

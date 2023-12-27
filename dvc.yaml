@@ -6,4 +6,4 @@ stages:
   process:
     cmd: Rscript R/process.R
     outs:
-      - data/
+      - brick/
